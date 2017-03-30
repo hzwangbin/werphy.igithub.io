@@ -1,24 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-04-06 15:40:56
+title:  "我的第一个页面"
+date:   2017-03-01 15:40:56
 categories: jekyll update
 ---
+第个页面当然是来一发hello world啊！！！！
+{% highlight java %}
+class firstpage{
+     public static void main(){
+	system.out.println("hello world");
+     }	
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+}
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+搭建的方法可以参考 [Jekyll docs][jekyll文档] 来了解更多细节。
+[jekyll文档]:    http://jekyllrb.com
